@@ -149,35 +149,27 @@ console.log(Ultrasonic_Sensor)
             POD ID : 211
           </div>
           <br />
+
           <div className="btn">
-            <div className="type">Proximity Sensor </div>
-            <div className="value">{Ultrasonic_Distance}</div>
+            <div className="type">Pod Status</div>
+            <div className="value">{OverallStatus}</div>
           </div>
 
           <div className="btn">
-            <div className="type">Position Sensor</div>
+            <div className="type">Pod Position</div>
             <div className="value">{Inductive_Count}</div>
           </div>
 
           <div className="btn">
-            <div className="type">Catcher Position </div> 
-            <div className="value">{LimitSwitch}</div>
+            <div className="type">Pod Speed</div>
+            <div className="value">{0} m/s</div>
           </div>
 
           <div className="btn">
-            <div className="type">Catcher Angle</div>
-            <div className="value">{Encoder_Angle}</div>
+            <div className="type">Platoon Speed</div>
+            <div className="value">{0} m/s</div>
           </div>
 
-          <div className="btn">
-            <div className="type">Faults</div>
-            <div className="value">{Faults}</div>
-          </div>
-
-          <div className="btn">
-            <div className="type">OverallStatus</div>
-            <div className="value">{OverallStatus}</div>
-          </div>
 
           <div className="btn">
             <div className="type">Power</div>
@@ -188,6 +180,35 @@ console.log(Ultrasonic_Sensor)
             <div className="type">Energy</div>
             <div className="value">{Energy}</div>
           </div>
+
+
+          <div className="btn">
+            <div className="type">Faults Staus</div>
+            <div className="value">{Faults}</div>
+          </div>
+
+
+          {/* <div className="btn">
+            <div className="type">Proximity Sensor </div>
+            <div className="value">{Ultrasonic_Distance}</div>
+          </div> */}
+
+          
+
+          {/* <div className="btn">
+            <div className="type">Catcher Position </div> 
+            <div className="value">{LimitSwitch}</div>
+          </div> */}
+
+          {/* <div className="btn">
+            <div className="type">Catcher Angle</div>
+            <div className="value">{Encoder_Angle}</div>
+          </div> */}
+
+          
+          
+
+         
           
           </div>
         </div>
