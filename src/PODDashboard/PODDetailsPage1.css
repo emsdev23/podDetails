@@ -22,6 +22,18 @@
       }
 
   }
+
+  @media (max-width: 400px){
+    .podBox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        padding: 10rem ;
+        gap: 2rem;
+      }
+
+  }
   
   .pods {
     position: relative;
